@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="form-div">
+        <form method="post" action="/chat/<%= data.id %>">
+            <h1>Edit Chat</h1><hr><br>
+            <label for="from">
+                From
+            </label>
+            <input type="text" name="from" id="from" value="<%= data.from %>"><br><br>
+            <label for="msg" style="position: relative; top: -2rem;">
+                Message
+            </label>
+            <textarea name="msg" id="msg" rows="5" style="resize: none;" cols="20"><%= data.msg %></textarea><br><br>
+            <label for="to">
+                To
+            </label>
+            <input type="text" name="to" id="to" value="<%= data.to %>"><br><br>
+            <input type="submit" value="Update" class="access edit">
+        </form>
+</body>
+</html>

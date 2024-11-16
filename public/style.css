@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chat{
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.msg{
+    background-color: lightskyblue;
+    font-size: 1.2rem;
+}
+
+.access{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 5.2rem;
+    margin: 1rem;
+    outline: 1px solid black;
+    border-radius: 10%;
+    font-size: 1rem;
+    transition: ease-in-out;    
+    color: black;
+    text-decoration: none;
+}
+
+.access:hover{
+    background-color: rgb(120, 226, 120);
+    border: 1px solid black;
+}
+
+/*----------------------------------   new Chat page Style ---------------------*/
+
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /*
+.form-div form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+} */
+
+.edit{
+    height: 2rem;
+    width: 4rem;
+}
+
+
+/*--------------------------- delete.ejs ------------------------------*/
+
+.delete{
+    background-color: hsl(0, 93%, 62%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 4rem;
+    margin: 1rem;
+    outline: 1px solid black;
+    border-radius: 10%;
+    font-size: 1rem;
+    transition: ease-in-out;    
+    color: black;
+    text-decoration: none;
+}
+
+.delete:hover{
+    background-color:red;
+    border: 1px solid black;
+}
